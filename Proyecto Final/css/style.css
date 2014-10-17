@@ -1,0 +1,128 @@
+.wrapper {
+	width: 100%;
+	max-width: 900px;
+	margin: auto;
+}
+
+body {
+	background-color: #F7DB4D;
+}
+
+nav ul li {
+	font-family: 'PT Sans', sans-serif;
+	display: inline-block;
+	margin-right: 60px;
+
+}
+
+
+a {
+	text-decoration: none;
+	color: #0E3940;
+	font-size: 1em;
+}
+
+a:hover {
+	border-bottom: 1px #000 solid;
+}
+
+/* h */
+
+h1 {
+	position: absolute;
+	margin-top: 40px;
+}
+
+h2 {
+	font-size: 3.8em;
+	color: #0E3940;
+	font-family: 'PT Sans', sans-serif;
+	letter-spacing: 1px;
+}
+
+h3 {
+	font-size: 0.7em;
+	font-family: Helvetica, sans-serif;
+	color: #0E3940;
+}
+
+.selected {
+     border-bottom: 1px #000 solid;
+}
+
+.fotos {
+	width: 210px;
+	height: 210px;
+	background-color: #000;
+	margin-top: 4px;
+}
+
+.fotos:hover {
+	background-color: #fff;
+}
+
+article p {
+	font-family: Helvetica, sans-serif;
+	font-size: 0.75em;
+	line-height: 16px;
+	text-align: justify;
+}
+
+footer {
+	clear: both;
+	padding-top: 40px;
+	text-align: center;
+}
+
+/* position */
+
+nav {
+	float: right;
+	margin-top: 90px;
+}
+
+article {
+	float: right;
+	width: 356px;
+	margin-top: 70px;
+	margin-right: 60px;
+}
+
+aside {
+	float: left;
+	width: 430px;
+}
+
+aside h2 {
+	margin-top: 220px;
+}
+
+div div {
+	display: inline-block;
+}
+
+.tabla {
+	margin-top: 48px;
+}
+
+section {
+	float: left;
+}
+
+.habilidades {
+	margin-top: 20px;
+}
+
+.form {
+	position: relative;
+	top: 200px;
+}
+
+.contacto {
+	float: left;
+	text-align: left;
+}
+
+.numero {
+	font-size: 20px;
+}
